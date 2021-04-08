@@ -19,6 +19,10 @@ import spark.Spark;
 
 public class WebServer {
 
+	/*Creating ⬢ weatherman-bot509... done
+https://weatherman-bot509.herokuapp.com/ | https://git.heroku.com/weatherman-bot509.git
+*/
+	
 	public static void main(String[] args) {
 		Spark.setPort(getHerokuAssignedPort());
 		Spark.staticFileLocation("/public");

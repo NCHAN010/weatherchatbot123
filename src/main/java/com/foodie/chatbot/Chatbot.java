@@ -5,10 +5,9 @@ import java.util.Scanner;
 
 import org.apache.http.client.ClientProtocolException;
 
+import com.foodie.model.Weather;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonPrimitive;
-import com.weather.chatbot.Chatbot;
-import com.weather.model.Weather;
 
 public class Chatbot {
 
